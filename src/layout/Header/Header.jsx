@@ -6,6 +6,8 @@ import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import SearchIcon from '@mui/icons-material/Search';
 import MicIcon from '@mui/icons-material/Mic';
 
+import { Link } from "react-router-dom";
+
 const Header = ({toggleSidebar}) => {
   return (
     <AppBar sx={{ backgroundColor: "#FFF", boxShadow: "none" }}>
@@ -23,7 +25,7 @@ const Header = ({toggleSidebar}) => {
             <MenuIcon />
           </IconButton>
           <Box sx={{ ml: 2, display: "flex", alignItems: "center" }}>
-            <img src={logo} alt="Example" width="140" height="140" />
+            <Link to="/"><img src={logo} alt="Example" width="140" height="140" /></Link>
           </Box>
         </Box>
         <Box
