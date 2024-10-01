@@ -11,7 +11,7 @@ const SearchBar = () => {
         alignItems: 'center',
         justifyContent: 'center',
         margin: 'auto',
-        width:'550px'
+        width:'600px'
       }}
     >
       <Box
@@ -20,7 +20,6 @@ const SearchBar = () => {
           display: 'flex',
           alignItems: 'center',
           borderRadius: '50px',
-          padding: '2px 4px',
           boxShadow: 'none',
           border: '1px solid #ddd',
           width:'100%'
