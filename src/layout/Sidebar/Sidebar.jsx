@@ -19,23 +19,25 @@ const Sidebar = ({ open }) => {
             width: 240,
             boxSizing: 'border-box',
             top: '64px',
+            border:'none',
+            paddingLeft:'10px'
           },
         }}
       >
         <List>
-          <ListItem button>
+          <ListItem button sx={{borderRadius:'15px'}}>
             <ListItemIcon><HomeIcon /></ListItemIcon>
             <ListItemText primary="Home" />
           </ListItem>
-          <ListItem button>
+          <ListItem button sx={{borderRadius:'15px'}}>
             <ListItemIcon><SubscriptionsIcon /></ListItemIcon>
             <ListItemText primary="Subscriptions" />
           </ListItem>
-          <ListItem button>
+          <ListItem button sx={{borderRadius:'15px'}}>
             <ListItemIcon><VideoLibraryIcon /></ListItemIcon>
             <ListItemText primary="Library" />
           </ListItem>
-          <ListItem button>
+          <ListItem button sx={{borderRadius:'15px'}}>
             <ListItemIcon><HistoryIcon /></ListItemIcon>
             <ListItemText primary="History" />
           </ListItem>
