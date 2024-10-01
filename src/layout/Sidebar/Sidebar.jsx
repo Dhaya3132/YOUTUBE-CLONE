@@ -26,20 +26,20 @@ const Sidebar = ({ open }) => {
       >
         <List>
           <ListItem button sx={{borderRadius:'15px'}}>
-            <ListItemIcon><HomeIcon /></ListItemIcon>
-            <ListItemText primary="Home" />
+            <ListItemIcon><HomeIcon sx={{ color:'black'}} /></ListItemIcon>
+            <ListItemText primary="Home" sx={{ color:'black'}}  />
           </ListItem>
           <ListItem button sx={{borderRadius:'15px'}}>
-            <ListItemIcon><SubscriptionsIcon /></ListItemIcon>
-            <ListItemText primary="Subscriptions" />
+            <ListItemIcon><SubscriptionsIcon sx={{ color:'black'}}  /></ListItemIcon>
+            <ListItemText primary="Subscriptions" sx={{ color:'black'}}  />
           </ListItem>
           <ListItem button sx={{borderRadius:'15px'}}>
-            <ListItemIcon><VideoLibraryIcon /></ListItemIcon>
-            <ListItemText primary="Library" />
+            <ListItemIcon><VideoLibraryIcon sx={{ color:'black'}}  /></ListItemIcon>
+            <ListItemText primary="Library" sx={{ color:'black'}}  />
           </ListItem>
           <ListItem button sx={{borderRadius:'15px'}}>
-            <ListItemIcon><HistoryIcon /></ListItemIcon>
-            <ListItemText primary="History" />
+            <ListItemIcon><HistoryIcon sx={{ color:'black'}}  /></ListItemIcon>
+            <ListItemText primary="History" sx={{ color:'black'}}  />
           </ListItem>
         </List>
       </Drawer>
